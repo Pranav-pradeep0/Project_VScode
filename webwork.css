@@ -774,7 +774,7 @@ footer {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    margin-left: 290px;
+    margin-left: 330px;
     margin-top: 17px;
     width: 30%;
 }
@@ -807,7 +807,6 @@ footer {
 #ftrdiv2 {
     position: absolute;
     /* border: #000000 1px solid; */
-    right: 300px;
     background-color: #00000000;
     color: #e0dddd;
     font-size: 15px;
