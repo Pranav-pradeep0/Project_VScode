@@ -1,4 +1,4 @@
-header{
+header {
     position: relative;
 }
 
@@ -7,7 +7,7 @@ body {
     font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-size: 17px;
     background-color: #2c2c32;
-    
+
 }
 
 div {
@@ -17,7 +17,7 @@ div {
     align-items: center;
 }
 
-a{
+a {
     color: #0071bc;
 }
 
@@ -53,11 +53,11 @@ i {
 }
 
 
-a:link{
+a:link {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
@@ -172,6 +172,10 @@ h1 {
     color: #e0dddd;
 }
 
+.dl:hover{
+    background-color: #024b88;
+}
+
 #dl3 {
     height: 59px;
     color: #005ba4;
@@ -182,6 +186,7 @@ h1 {
     padding-left: -10px;
     text-align-last: center;
 }
+
 
 
 #op {
@@ -214,7 +219,7 @@ h1 {
     font-size: medium;
 }
 
-.pil{
+.pil {
     position: absolute;
     margin-top: 75px;
 }
@@ -223,7 +228,7 @@ h1 {
     margin-top: -20px;
     position: absolute;
     margin-left: 9px;
-    color:#0099ff;
+    color: #0099ff;
 }
 
 #discli {
@@ -328,7 +333,7 @@ h1 {
 #insens {
     width: 45%;
     padding: 100px;
-    
+
 }
 
 #intl {
@@ -350,8 +355,6 @@ h1 {
     width: 20%;
     margin-left: 250px;
 }
-
-
 
 
 
@@ -523,18 +526,18 @@ h1 {
     box-shadow: none;
 }
 
-.logo{
+.logo {
     width: 4%;
 }
 
 
-.lgo{
+.lgo {
     background-color: #00000000;
     width: 1%;
     margin-left: -40px;
 }
 
-#lgohead{
+#lgohead {
     position: absolute;
     background-color: #00000000;
     color: #25252b;
@@ -544,14 +547,14 @@ h1 {
     margin-top: -230px;
 }
 
-.gtstrtd{
+.gtstrtd {
     position: absolute;
     width: 13%;
     height: 60px;
     margin-bottom: -220px;
 }
 
-#gtstrtdbtn{
+#gtstrtdbtn {
     background-color: #006bb3;
     width: 100%;
     height: 60px;
@@ -561,25 +564,25 @@ h1 {
     font-weight: 530;
 }
 
-#gtstrtdbtn:hover{
+#gtstrtdbtn:hover {
     background-color: #005ba4;
 }
 
 
-#nine{
+#nine {
     background-color: #d4d4d4;
     width: 100%;
     height: 400px;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
 }
 
-#wlaicn{
+#wlaicn {
     background-color: #d4d4d4;
     width: 70%;
-    
+
 }
 
-.icons{
+.icons {
     background-color: #d4d4d4;
     margin-left: 150px;
     margin-right: 150px;
@@ -587,16 +590,16 @@ h1 {
 
 }
 
-.lin{
+.lin {
     width: 140%;
 }
 
-.icn{
+.icn {
     width: 100%;
     margin-top: -100px;
 }
 
-#icndls{
+#icndls {
     position: absolute;
     background-color: #00000000;
     color: #25252b;
@@ -608,7 +611,7 @@ h1 {
 }
 
 
-.dwnicn{
+.dwnicn {
     position: absolute;
     background-color: #006bb3;
     width: 13%;
@@ -621,7 +624,7 @@ h1 {
     border-radius: 3px;
 }
 
-.dwnicndeb{
+.dwnicndeb {
     position: absolute;
     background-color: #006bb3;
     width: auto;
@@ -636,10 +639,10 @@ h1 {
     margin-left: -200px;
 }
 
-.dwnicnrpm{
+.dwnicnrpm {
     position: absolute;
     background-color: #006bb3;
-    width:auto;
+    width: auto;
     height: 60px;
     border: #0000001a .2px solid;
     color: #ffffff;
@@ -651,37 +654,37 @@ h1 {
     margin-right: -200px;
 }
 
-.hvricn:hover{
+.hvricn:hover {
     background-color: #005ba4;
 }
 
-#icndwn{
+#icndwn {
     margin-right: 8px;
 }
 
-.dwnicn{
+.dwnicn {
     width: auto;
 }
 
-.dwnmac{
+.dwnmac {
     width: auto;
 }
 
 
-#ten{
+#ten {
     background-color: #ffffff;
     width: 100%;
     height: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.432), 0 6px 20px 0 rgba(0, 0, 0, 0.432);
 }
 
-#insider{
+#insider {
     background-color: #00000000;
     width: 80%;
     height: 400px;
 }
 
-.ins{
+.ins {
     color: #25252b;
     background-color: #ffffff00;
     font-size: larger;
@@ -690,54 +693,57 @@ h1 {
     margin-top: -150px;
 }
 
-.insdr{
+.insdr {
     position: absolute;
     margin-left: -650px;
 }
 
-.insdr2{
+.insdr2 {
     position: absolute;
     margin-right: -650px;
 }
 
-#nwft{
+#nwft {
     font-weight: 480;
     margin-top: -50px;
 }
 
-#nwft1{
+#nwft1 {
     position: absolute;
     margin-top: 30px;
+    display: inline-flex;
+    white-space: pre;
 }
 
-#vsedit{
+
+#vsedit {
     font-weight: 480;
     margin-top: -50px;
 }
 
-#vsedit1{
+#vsedit1 {
     position: absolute;
     margin-top: 30px;
 }
 
-.licence{
+.licence {
     position: absolute;
     width: 50%;
     background-color: #00000000;
 }
 
-.pl{
+.pl {
     background-color: #00000000;
 }
 
-.licn{
+.licn {
     /* margin-top: -15px; */
     /* position: absolute; */
     font-weight: 500;
 
 }
 
-.licdisc{
+.licdisc {
     position: absolute;
     margin-bottom: -160px;
     text-align: center;
@@ -747,19 +753,20 @@ h1 {
     width: 900px;
 }
 
-#pdisc{
+#pdisc {
     width: 100%;
 }
 
 
-footer{
+footer {
     height: 90px;
     width: 100%;
     background-color: #333;
+    resize: none;
 }
 
 
-#ftrdiv{
+#ftrdiv {
     /* border: #000000 1px solid; */
     background-color: #00000000;
     color: #e0dddd;
@@ -767,64 +774,65 @@ footer{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    margin-left: 305px;
+    margin-left: 290px;
     margin-top: 17px;
     width: 30%;
 }
 
-#ftrp{
-margin-right: 25px;
+#ftrp {
+    margin-right: 25px;
 }
 
-#ftrl{
+#ftrl {
     color: #e0dddd;
     margin-right: 25px;
 }
 
-#ftrb{
+#ftrb {
     width: 10%;
 }
 
-#ftrg{
+#ftrg {
     color: #000000;
     margin-right: 2px;
 }
 
-#ftrc{
+#ftrc {
     width: 12%;
     font-size: 11px;
     height: 21px;
 }
 
 
-#ftrdiv2{
+#ftrdiv2 {
     position: absolute;
     /* border: #000000 1px solid; */
+    right: 300px;
     background-color: #00000000;
     color: #e0dddd;
     font-size: 15px;
     display: inline-flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     margin-left: 150px;
     margin-top: 32px;
     width: 30%;
 }
 
-.ftrlink{
+.ftrlink {
     color: #e0dddd;
     margin-right: 25px;
 }
 
-.ftrlink:hover{
+.ftrlink:hover {
     color: #b4a0ff;
 }
 
-#ftrimg{
+#ftrimg {
     width: 15%;
 }
 
-#ftrspan{
+#ftrspan {
     position: absolute;
     margin-top: 45px;
     font-size: smaller;
