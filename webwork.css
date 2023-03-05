@@ -1,7 +1,13 @@
+header{
+    position: relative;
+}
+
 body {
     margin: 0px;
     font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-size: 17px;
+    background-color: #2c2c32;
+    
 }
 
 div {
@@ -11,12 +17,17 @@ div {
     align-items: center;
 }
 
+a{
+    color: #0071bc;
+}
+
 #hdr {
 
     width: 100%;
     height: 60px;
     position: fixed;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.082), 0 6px 20px 0 rgba(0, 0, 0, 0.151);
+    z-index: 1;
 }
 
 .hl {
@@ -44,6 +55,10 @@ i {
 
 a:link{
     text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .bu1 {
@@ -93,7 +108,6 @@ h1 {
     color: #ccc;
     padding-top: 60px;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
-
 }
 
 #link2 {
@@ -102,8 +116,9 @@ h1 {
 }
 
 #mainimg {
-    position: absolute;
-    margin-right: -500px;
+    width: 45%;
+    margin-right: -400px;
+    margin-left: -200px;
 }
 
 #img2 {
@@ -123,13 +138,15 @@ h1 {
 #h2 {
     font-size: 50px;
     margin-top: -40px;
+    font-weight: 400;
+    padding-left: 10px;
 }
 
 #div4 {
     width: 30%;
     display: inline-block;
     vertical-align: middle;
-    margin-left: -550px;
+    margin-left: -350px;
     margin-top: -330px;
 }
 
@@ -188,7 +205,7 @@ h1 {
     width: 310px;
     height: 50px;
     background-color: #25252b;
-    color: #0099ff;
+    color: #0071bc;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -490,8 +507,9 @@ h1 {
     align-items: center;
     width: 55%;
     /* border: #000000 1px solid; */
-    height: 100px;
+    height: 25px;
     box-shadow: none;
+    margin-top: -70px;
 }
 
 .logos2 {
@@ -499,9 +517,9 @@ h1 {
     align-items: center;
     width: 55%;
     /* border: #000000 1px solid; */
-    height: 100px;
+    height: 25px;
     position: absolute;
-    margin-bottom: -200px;
+    margin-bottom: -20px;
     box-shadow: none;
 }
 
@@ -524,4 +542,291 @@ h1 {
     font-weight: lighter;
     width: 20%;
     margin-top: -230px;
+}
+
+.gtstrtd{
+    position: absolute;
+    width: 13%;
+    height: 60px;
+    margin-bottom: -220px;
+}
+
+#gtstrtdbtn{
+    background-color: #006bb3;
+    width: 100%;
+    height: 60px;
+    border: #0000001a .2px solid;
+    color: #ffffff;
+    font-size: large;
+    font-weight: 530;
+}
+
+#gtstrtdbtn:hover{
+    background-color: #005ba4;
+}
+
+
+#nine{
+    background-color: #d4d4d4;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+}
+
+#wlaicn{
+    background-color: #d4d4d4;
+    width: 70%;
+    
+}
+
+.icons{
+    background-color: #d4d4d4;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 80px;
+
+}
+
+.lin{
+    width: 140%;
+}
+
+.icn{
+    width: 100%;
+    margin-top: -100px;
+}
+
+#icndls{
+    position: absolute;
+    background-color: #00000000;
+    color: #25252b;
+    font-size: 45px;
+    font-weight: lighter;
+    width: 20%;
+    margin-top: -250px;
+    margin-right: -170px;
+}
+
+
+.dwnicn{
+    position: absolute;
+    background-color: #006bb3;
+    width: 13%;
+    height: 60px;
+    border: #0000001a .2px solid;
+    color: #ffffff;
+    font-size: large;
+    font-weight: 530;
+    margin-bottom: -180px;
+    border-radius: 3px;
+}
+
+.dwnicndeb{
+    position: absolute;
+    background-color: #006bb3;
+    width: auto;
+    height: 60px;
+    padding: 20px;
+    border: #0000001a .2px solid;
+    color: #ffffff;
+    font-size: large;
+    font-weight: 530;
+    margin-bottom: -180px;
+    border-radius: 3px;
+    margin-left: -200px;
+}
+
+.dwnicnrpm{
+    position: absolute;
+    background-color: #006bb3;
+    width:auto;
+    height: 60px;
+    border: #0000001a .2px solid;
+    color: #ffffff;
+    font-size: large;
+    font-weight: 530;
+    padding: 20px;
+    margin-bottom: -180px;
+    border-radius: 3px;
+    margin-right: -200px;
+}
+
+.hvricn:hover{
+    background-color: #005ba4;
+}
+
+#icndwn{
+    margin-right: 8px;
+}
+
+.dwnicn{
+    width: auto;
+}
+
+.dwnmac{
+    width: auto;
+}
+
+
+#ten{
+    background-color: #ffffff;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.432), 0 6px 20px 0 rgba(0, 0, 0, 0.432);
+}
+
+#insider{
+    background-color: #00000000;
+    width: 80%;
+    height: 400px;
+}
+
+.ins{
+    color: #25252b;
+    background-color: #ffffff00;
+    font-size: larger;
+    font-weight: 300;
+    height: 150px;
+    margin-top: -150px;
+}
+
+.insdr{
+    position: absolute;
+    margin-left: -650px;
+}
+
+.insdr2{
+    position: absolute;
+    margin-right: -650px;
+}
+
+#nwft{
+    font-weight: 480;
+    margin-top: -50px;
+}
+
+#nwft1{
+    position: absolute;
+    margin-top: 30px;
+}
+
+#vsedit{
+    font-weight: 480;
+    margin-top: -50px;
+}
+
+#vsedit1{
+    position: absolute;
+    margin-top: 30px;
+}
+
+.licence{
+    position: absolute;
+    width: 50%;
+    background-color: #00000000;
+}
+
+.pl{
+    background-color: #00000000;
+}
+
+.licn{
+    /* margin-top: -15px; */
+    /* position: absolute; */
+    font-weight: 500;
+
+}
+
+.licdisc{
+    position: absolute;
+    margin-bottom: -160px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 40px;
+    width: 900px;
+}
+
+#pdisc{
+    width: 100%;
+}
+
+
+footer{
+    height: 90px;
+    width: 100%;
+    background-color: #333;
+}
+
+
+#ftrdiv{
+    /* border: #000000 1px solid; */
+    background-color: #00000000;
+    color: #e0dddd;
+    font-size: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 305px;
+    margin-top: 17px;
+    width: 30%;
+}
+
+#ftrp{
+margin-right: 25px;
+}
+
+#ftrl{
+    color: #e0dddd;
+    margin-right: 25px;
+}
+
+#ftrb{
+    width: 10%;
+}
+
+#ftrg{
+    color: #000000;
+    margin-right: 2px;
+}
+
+#ftrc{
+    width: 12%;
+    font-size: 11px;
+    height: 21px;
+}
+
+
+#ftrdiv2{
+    position: absolute;
+    /* border: #000000 1px solid; */
+    background-color: #00000000;
+    color: #e0dddd;
+    font-size: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 150px;
+    margin-top: 32px;
+    width: 30%;
+}
+
+.ftrlink{
+    color: #e0dddd;
+    margin-right: 25px;
+}
+
+.ftrlink:hover{
+    color: #b4a0ff;
+}
+
+#ftrimg{
+    width: 15%;
+}
+
+#ftrspan{
+    position: absolute;
+    margin-top: 45px;
+    font-size: smaller;
+    margin-right: -334px;
 }
