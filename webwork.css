@@ -232,8 +232,10 @@ h1 {
 }
 
 #discli {
+    background-color: #00000000;
     position: absolute;
     font-size: 13px;
+    width: 45%;
     color: #ccc;
     display: block;
     justify-content: center;
